@@ -32,7 +32,7 @@ public class UserConfig {
         headers.put("ddmc-channel", "applet");
         headers.put("ddmc-os-version", "[object Undefined]");
         headers.put("ddmc-app-client-id", "4");
-        headers.put("cookie", "DDXQSESSID=da2427ed9c161e9492728de2977ee67f");
+        headers.put("cookie", "DDXQSESSID=da2427ed9c161e9492728de2977ee67ffff");
         headers.put("ddmc-ip", "");
         headers.put("ddmc-longitude", "121.496934");
         headers.put("ddmc-latitude", "31.125958");
