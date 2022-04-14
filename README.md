@@ -15,6 +15,7 @@
 5. 接口如果出现405状态有以3种可能 1.偶发，无需处理 2.不要长时间运行程序，参考上面的第2点  3.一个账号下单数有时会有限制 参考上面的第3点
 6. 根据反馈有少部分人的站点是假库存，可能是怕大家闹事，开放购买之前能看到购物车里有，但是根本就不可能买到，第一秒下单瞬间很多东西就没了，我也是，几百块的购物车最后下单几十块，我同时用app人工操作了购物车确实是没货了，不是程序问题。
 7. 日期20220412我这个站点是6点开始陆续上东西，6点之前购物车没有东西可以买
+8. 有反馈说用PC端小程序的UserAgent无法下单，如果你是用PC端小程序抓包不要覆盖UserConfig中的UserAgent
 
 ## 环境
 1. intellij idea
@@ -103,8 +104,8 @@
 ## 抓包截图 将你的信息填入
 
 这个图有时候会挂，直接从项目里面看也一样，就是路径image/headers.jpeg 和 body.jpeg  对应到UserConfig中的headers和body方法里的参数
-![请求头信息](https://github.com/JannsenYang/dingdong-helper/blob/8a16a972185cd4e560c24b57137dcd90b929efcb/image/headers.jpg)
-![请求体信息](https://github.com/JannsenYang/dingdong-helper/blob/8a16a972185cd4e560c24b57137dcd90b929efcb/image/body.jpg)
+![请求头信息](https://github.com/JannsenYang/dingdong-helper/blob/05cc65034b062d3a7844ec706e7876f8e5a57586/image/headers.jpg)
+![请求体信息](https://github.com/JannsenYang/dingdong-helper/blob/0433cc7def733820d734f48dec6e47fc0f2d89c8/image/body.jpg)
 
 ## 20220410实战记录
 

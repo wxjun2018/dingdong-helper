@@ -49,7 +49,7 @@ public class Application {
         int baseTheadSize = 2;
 
         //提交订单执行线程数
-        int submitOrderTheadSize = 3;
+        int submitOrderTheadSize = 4;
 
         //取随机数
         //请求间隔时间最小值
