@@ -1,6 +1,5 @@
 import cn.hutool.core.util.RandomUtil;
 
-import java.net.MalformedURLException;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
