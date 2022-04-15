@@ -26,7 +26,7 @@ public class UserConfig {
     public static Map<String, String> getHeaders() {
         Map<String, String> headers = new HashMap<>();
         headers.put("ddmc-city-number", "0101");
-        headers.put("ddmc-build-version", "2.82.2");
+        headers.put("ddmc-build-version", "2.82.4");
         headers.put("ddmc-device-id", "osP8I0edTsE1h48vw1rAG5g6IWBQ");
         //这个是站点id 请仔细检查和确认这个参数 进入小程序之后首页左上角是不是你所在的站点 如果不是先选择好站点再抓包 不要把站点搞错了 否则不能下单
         headers.put("ddmc-station-id", "59e5b5df936edf8b2e8f235b");
