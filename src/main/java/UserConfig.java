@@ -34,7 +34,7 @@ public class UserConfig {
         headers.put("ddmc-os-version", "[object Undefined]");
         headers.put("ddmc-app-client-id", "4");
         //用户是否登录关键信息 请仔细检查
-        headers.put("cookie", "DDXQSESSID=36fbd1e8d65b76ba2043dc288e373f78");
+        headers.put("cookie", "DDXQSESSID=36fbd1e8d65b76ba2043dc288e373f7888");
         headers.put("ddmc-ip", "");
         headers.put("ddmc-longitude", "121.496934");
         headers.put("ddmc-latitude", "31.125958");
