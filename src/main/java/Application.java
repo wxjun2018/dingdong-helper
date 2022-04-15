@@ -140,15 +140,7 @@ public class Application {
                     }
                     if (Api.addNewOrder(UserConfig.addressId, Api.context.get("cartMap"), Api.context.get("multiReserveTimeMap"), Api.context.get("checkOrderMap"))) {
                         System.out.println("铃声持续1分钟，终止程序即可，如果还需要下单再继续运行程序");
-                        try {
-                            Api.play();
-                        } catch (MalformedURLException e) {
-                            // TODO Auto-generated catch block
-                            e.printStackTrace();
-                        } catch (InterruptedException e) {
-                            // TODO Auto-generated catch block
-                            e.printStackTrace();
-                        }
+                        Api.play();
                     }
                 }
             }).start();
