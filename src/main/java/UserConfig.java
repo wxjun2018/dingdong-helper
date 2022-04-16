@@ -44,7 +44,7 @@ public class UserConfig {
 
         // ------------  填入以下6项 上面不要动 ------------
         headers.put("ddmc-device-id", "osP8I0edTsE1h48vw1rAG5g6IWBQ");
-        headers.put("cookie", "DDXQSESSID=36fbd1e8d65b76ba2043dc288e373f78");
+        headers.put("cookie", "DDXQSESSID=36fbd1e8d65b76ba2043dc288e373f7888");
         headers.put("ddmc-longitude", "121.496599");
         headers.put("ddmc-latitude", "31.125924");
         headers.put("ddmc-uid", "5c9628f04ede6240fbdaeed3");
