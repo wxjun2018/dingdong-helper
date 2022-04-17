@@ -72,10 +72,10 @@ public class UserConfig {
         body.put("sharer_uid", "");
         body.put("h5_source", "");
         body.put("time", headers.get("ddmc-time"));
+        body.put("openid", headers.get("ddmc-device-id"));
 
         // ------------  填入这3项上面不要动 ------------
         body.put("s_id", "fee49204a97abf1cd10281b173beb384");
-        body.put("openid", "osP8I0R-oGc2TSHP3iJF_e4-CZSQ");
         body.put("device_token", "WHJMrwNw1k/FKPjcOOgRd+HxT8OuZRbGMi5jZvWgodfAvO7fQBpbkVZ4ByUiJjfWCjMj83SKOUBxCTJ9vWDJ9Yh90wZRqHdAfdCW1tldyDzmauSxIJm5Txg==1487582755342");
         return body;
     }
